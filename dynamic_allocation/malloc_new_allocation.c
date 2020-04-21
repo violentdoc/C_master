@@ -40,7 +40,7 @@ int main(){
 	//allocaton of array of strings
 
 	int n_;
-	scanf("%d", &n);
+	scanf("%d", &n_);
 
 	char **s = (char **) malloc(row * sizeof(char *));
 	char t[123];
